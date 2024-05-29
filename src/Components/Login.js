@@ -13,6 +13,7 @@ import {
   Text,
   Link,
 } from '@chakra-ui/react';
+import { NavLink } from 'react-router-dom';
 
 function Login() {
   return (
@@ -51,7 +52,7 @@ function Login() {
                 Submit
             </Button>
             <Button>
-            <Link href="#">Register</Link>
+            <NavLink to="/register">Register</NavLink>
             </Button>
         </Text>
       </VStack>
